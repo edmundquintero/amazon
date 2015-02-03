@@ -1,0 +1,24 @@
+{
+  "name": "amazon",
+  "description": "amazon item preview",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "amazon-product-api": "^0.1.2",
+    "crypto": "0.0.3",
+    "es6-promise": "^2.0.1",
+    "express": "3.10.x",
+    "hbs": "~2.7.0",
+    "passport": "~0.2.0",
+    "passport-local": "~1.0.0",
+    "promise": "^6.1.0",
+    "request": "^2.51.0",
+    "socket.io": "~1.0.5",
+    "xml2js": "^0.4.4"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

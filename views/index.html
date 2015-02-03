@@ -1,0 +1,33 @@
+
+<h1>Destiny POC</h1>
+
+<p>
+    SearchIndex: 'VideoGames', <br>
+    BrowseNode: '6427831011' (Playstation 4 > Games) <br>
+</P>
+
+
+
+
+<h2>Results</h2>
+
+<ul>
+{{#each items}}
+  <li>
+    <a href='{{ this.DetailPageURL }}'>
+      {{#each ItemAttributes}}
+        <div>{{this.Title}}</div>
+      {{/each}}
+      {{#each MediumImage}}
+        <img src='{{ this.URL }}'>
+      {{/each}}
+ 
+      {{#each ItemAttributes}}
+        <div>{{this.Brand}}</div>
+      {{/each}}
+      <!-- <div><a href='{{ this.DetailPageURL }}'>{{ this.DetailPageURL }}</a></div> -->
+    </a>
+  </li>
+{{/each}}
+</ul>
+
